@@ -4,9 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Testing the error
 
-Run `ng build --prod` which will succeed. Host the built code with
-`superstatic dist/until-destroy-jit -c superstatic.json` and note that the app is a blank white 
-screen with console error.
+Run `ng serve --prod --open` which will build properly, but the app shows a blank white screen with
+console error.
 
 ## Development server
 
