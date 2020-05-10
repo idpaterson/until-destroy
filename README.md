@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.5.
 
+## Testing the error
+
+Run `ng build --prod` which will succeed. Host the built code with
+`superstatic dist/until-destroy-jit -c superstatic.json` and note that the app is a blank white 
+screen with console error.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
